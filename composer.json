@@ -1,14 +1,14 @@
 {
-    "name": ":designthebox/:barcode_field",
+    "name": "designthebox/barcode-field",
     "keywords": [
         "Design The Box",
         "laravel",
         "barcode_field"
     ],
-    "homepage": "https://github.com/:vendor_slug/:package_slug",
+    "homepage": "https://github.com/AElleray/barcode-field",
     "support": {
-        "issues": "https://github.com/:vendor_slug/:package_slug/issues",
-        "source": "https://github.com/:vendor_slug/:package_slug"
+        "issues": "https://github.com/AElleray/barcode-field/issues",
+        "source": "https://github.com/AElleray/barcode-field"
     },
     "license": "MIT",
     "authors": [
@@ -65,7 +65,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "DesignTheBox\\barcode-field\\FilamentBarcodeScannerFieldServiceProvider"
+                "DesignTheBox\\BarcodeField\\FilamentBarcodeScannerFieldServiceProvider"
             ]
         }
     },
