@@ -1,10 +1,9 @@
 {
-    "name": ":vendor_slug/:package_slug",
-    "description": ":package_description",
+    "name": ":designthebox/:barcode_field",
     "keywords": [
-        ":vendor_name",
+        "Design The Box",
         "laravel",
-        ":package_slug"
+        "barcode_field"
     ],
     "homepage": "https://github.com/:vendor_slug/:package_slug",
     "support": {
@@ -14,8 +13,8 @@
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com",
+            "name": "Anthony Elleray",
+            "email": "anthony.elleray@designthebox.com",
             "role": "Developer"
         }
     ],
@@ -41,13 +40,12 @@
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src/",
-            "VendorName\\Skeleton\\Database\\Factories\\": "database/factories/"
+            "DesignTheBox\\barcode-field\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests/"
+            "DesignTheBox\\barcode-field\\Tests\\": "tests/"
         }
     },
     "scripts": {
@@ -67,11 +65,8 @@
     "extra": {
         "laravel": {
             "providers": [
-                "VendorName\\Skeleton\\SkeletonServiceProvider"
-            ],
-            "aliases": {
-                "Skeleton": "VendorName\\Skeleton\\Facades\\Skeleton"
-            }
+                "DesignTheBox\\barcode-field\\FilamentBarcodeScannerFieldServiceProvider"
+            ]
         }
     },
     "minimum-stability": "dev",
