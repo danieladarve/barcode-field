@@ -30,9 +30,9 @@ BarcodeInput::make('barcode')
 ```
 ##  Features
 
-	Customizable icon using Heroicons.
-	Responsive design for optimal use on various devices.
-	Easy integration into your existing Filament forms.
+Customizable icon using Heroicons.
+Responsive design for optimal use on various devices.
+Easy integration into your existing Filament forms.
 
 ## Changelog
 
