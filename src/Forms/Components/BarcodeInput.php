@@ -17,4 +17,15 @@ class BarcodeInput extends TextInput
             ->placeholder('Enter barcode...')
             ->required(); // Set as required if needed
     }
+
+    /**
+     * Set a custom icon for the barcode input.
+     *
+     * @param string $icon The SVG or HTML for the icon.
+     * @return static
+     */
+    public function icon(string $icon): static
+    {
+        return $this->extraAttributes(['icon' => $icon]);
+    }
 }

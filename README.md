@@ -25,17 +25,12 @@ You can install the package via composer:
 composer require Design-The-Box/barcode-field
 ```
 
-Optionally, you can publish the views using
-
-```bash
-php artisan vendor:publish --tag=":barcode-field-views"
-```
-
-
 ## Usage
 
 ```php
- BarcodeInput::make('barcode') // Using your custom input field
+ BarcodeInput::make('barcode')
+    ->icon('heroicon-o-arrow-right') // Specify your Heroicon name here
+    ->required(),
 ```
 
 ## Changelog
