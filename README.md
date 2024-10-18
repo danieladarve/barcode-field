@@ -1,37 +1,40 @@
-# :package_description
+# Filament Barcode Scanner Input
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/AElleray/barcode-field.svg?style=flat-square)](https://packagist.org/packages/AElleray/barcode-field)
-[![GitHub Tests Action Status](https://img.shields.io/github/actions/workflow/status/AElleray/barcode-field/run-tests.yml?branch=main&label=tests&style=flat-square)](https://github.com/AElleray/barcode-field/actions?query=workflow%3Arun-tests+branch%3Amain)
-[![GitHub Code Style Action Status](https://img.shields.io/github/actions/workflow/status/AElleray/barcode-field/fix-php-code-styling.yml?branch=main&label=code%20style&style=flat-square)](https://github.com/AElleray/barcode-field/actions?query=workflow%3A"Fix+PHP+code+styling"+branch%3Amain)
-[![Total Downloads](https://img.shields.io/packagist/dt/AElleray/barcode-field.svg?style=flat-square)](https://packagist.org/packages/AElleray/barcode-field)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/designthebox/barcode-field.svg?style=flat-square)](https://packagist.org/packages/designthebox/barcode-field)
+[![GitHub Tests Action Status](https://img.shields.io/github/actions/workflow/status/designthebox/barcode-field/run-tests.yml?branch=main&label=tests&style=flat-square)](https://github.com/designthebox/barcode-field/actions?query=workflow%3Arun-tests+branch%3Amain)
+[![GitHub Code Style Action Status](https://img.shields.io/github/actions/workflow/status/designthebox/barcode-field/fix-php-code-styling.yml?branch=main&label=code%20style&style=flat-square)](https://github.com/designthebox/barcode-field/actions?query=workflow%3A"Fix+PHP+code+styling"+branch%3Amain)
+[![Total Downloads](https://img.shields.io/packagist/dt/designthebox/barcode-field.svg?style=flat-square)](https://packagist.org/packages/designthebox/barcode-field)
 
-<!--delete-->
----
-This repo can be used to scaffold a Filament plugin. Follow these steps to get started:
+## Overview
 
-1. Press the "Use this template" button at the top of this repo to create a new repo with the contents of this skeleton.
-2. Run "php ./configure.php" to run a script that will replace all placeholders throughout all the files.
-3. Make something great!
----
-<!--/delete-->
-
-This is where your description should go. Limit it to a paragraph or two. Consider adding a small example.
+The **Filament Barcode Scanner Input** package provides a user-friendly barcode input field for your Filament applications. This component supports dynamic scanning, allowing users to input barcodes seamlessly.
 
 ## Installation
 
-You can install the package via composer:
+You can install the package via Composer:
 
 ```bash
-composer require Design-The-Box/barcode-field
+composer require designthebox/barcode-field
+
 ```
 
 ## Usage
 
+Once installed, you can use the BarcodeInput component in your Filament forms:
+
 ```php
- BarcodeInput::make('barcode')
+ use DesignTheBox\BarcodeField\Forms\Components\BarcodeInput;
+
+// In your form definition
+BarcodeInput::make('barcode')
     ->icon('heroicon-o-arrow-right') // Specify your Heroicon name here
     ->required(),
 ```
+##  Features
+
+	Customizable icon using Heroicons.
+	Responsive design for optimal use on various devices.
+	Easy integration into your existing Filament forms.
 
 ## Changelog
 
@@ -53,3 +56,12 @@ Please review [our security policy](../../security/policy) on how to report secu
 ## License
 
 The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
+
+
+### Key Enhancements
+1. **Overview Section**: A brief description of what the package does.
+2. **Features Section**: Highlight key features for quick reference.
+3. **Consistency in Naming**: The package name is consistently formatted throughout the document.
+4. **Formatting**: Clear formatting for code blocks and sections enhances readability.
+
+
