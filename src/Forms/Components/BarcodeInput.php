@@ -4,12 +4,11 @@ namespace DesignTheBox\BarcodeField\Forms\Components;
 
 use Filament\Forms\Components\TextInput;
 use Illuminate\Contracts\Support\Htmlable;
-use Illuminate\Support\Facades\Log;
 
 class BarcodeInput extends TextInput
 {
-
     protected string $view = 'filament.plugins.components.barcode-input';
+
     protected function setUp(): void
     {
         parent::setUp();
