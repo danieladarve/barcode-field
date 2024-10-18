@@ -2,10 +2,10 @@
 
 namespace DesignTheBox\BarcodeField;
 
+use DesignTheBox\BarcodeField\Forms\Components\BarcodeInput;
 use Filament\Forms\Components\Field;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use DesignTheBox\BarcodeField\Forms\Components\BarcodeInput;
 
 class FilamentBarcodeScannerFieldServiceProvider extends PackageServiceProvider
 {

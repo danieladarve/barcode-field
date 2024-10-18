@@ -5,10 +5,10 @@
         "laravel",
         "barcode_field"
     ],
-    "homepage": "https://github.com/AElleray/barcode-field",
+    "homepage": "https://github.com/Design-The-Box/barcode-field",
     "support": {
-        "issues": "https://github.com/AElleray/barcode-field/issues",
-        "source": "https://github.com/AElleray/barcode-field"
+        "issues": "https://github.com/Design-The-Box/barcode-field/issues",
+        "source": "https://github.com/Design-The-Box/barcode-field"
     },
     "license": "MIT",
     "authors": [
@@ -34,18 +34,14 @@
         "pestphp/pest-plugin-arch": "^2.0",
         "pestphp/pest-plugin-laravel": "^2.0",
         "phpstan/extension-installer": "^1.1",
+        "phpstan/phpstan": "^1.12",
         "phpstan/phpstan-deprecation-rules": "^1.0",
         "phpstan/phpstan-phpunit": "^1.0",
         "spatie/laravel-ray": "^1.26"
     },
     "autoload": {
         "psr-4": {
-            "DesignTheBox\\barcode-field\\": "src/"
-        }
-    },
-    "autoload-dev": {
-        "psr-4": {
-            "DesignTheBox\\barcode-field\\Tests\\": "tests/"
+            "DesignTheBox\\BarcodeField\\": "src/"
         }
     },
     "scripts": {
