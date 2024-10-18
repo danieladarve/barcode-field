@@ -2,10 +2,11 @@
 
 namespace DesignTheBox\BarcodeField;
 
-use VendorName\Skeleton\Forms\Components\BarcodeInput; // Correct import for BarcodeInput
-use Filament\Forms\Components\Field; // Import Field from Filament
-use Spatie\LaravelPackageTools\Package;
+use Filament\Forms\Components\Field; // Correct import for BarcodeInput
+use Spatie\LaravelPackageTools\Package; // Import Field from Filament
 use Spatie\LaravelPackageTools\PackageServiceProvider;
+use VendorName\Skeleton\Forms\Components\BarcodeInput;
+
 use function App\Filament\Plugins\BarcodeScannerField\config_path;
 
 class FilamentBarcodeScannerFieldServiceProvider extends PackageServiceProvider
@@ -26,7 +27,7 @@ class FilamentBarcodeScannerFieldServiceProvider extends PackageServiceProvider
 
         // Register the BarcodeInput component as a macro on the Field class
         Field::macro('barcodeInput', function () {
-            return new BarcodeInput(); // Create an instance of BarcodeInput
+            return new BarcodeInput; // Create an instance of BarcodeInput
         });
     }
 }
