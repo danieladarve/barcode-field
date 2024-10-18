@@ -21,8 +21,7 @@ class BarcodeInput extends TextInput
     /**
      * Set a custom icon for the barcode input.
      *
-     * @param string $icon The SVG or HTML for the icon.
-     * @return static
+     * @param  string  $icon  The SVG or HTML for the icon.
      */
     public function icon(string $icon): static
     {
