@@ -17,11 +17,19 @@ class FilamentBarcodeScannerFieldServiceProvider extends PackageServiceProvider
             ->hasViews(); // Tell Laravel that this package has views
     }
 
-    public function bootingPackage(): void
+    public function boot(): void
     {
-        // Register the views path
-        $this->loadViewsFrom(__DIR__.'/../resources/views', 'barcode-field'); // 'barcode-field' is the view namespace
+        // You can safely call package methods here as it's already initialized
+        $this->loadViewsFrom(__DIR__.'/../resources/views', 'barcode-field'); // Register the views path
 
+        // Publish the barcode scanner script
+        $this->publishes([
+            __DIR__.'/../resources/js/barcode-scanner.js' => public_path('vendor/barcode-field/barcode-scanner.js'),
+        ], 'barcode-scanner-assets');
+    }
+
+    public function register(): void
+    {
         // Register the BarcodeInput component as a macro on the Field class
         Field::macro('barcodeInput', function () {
             return new BarcodeInput; // Create an instance of BarcodeInput
