@@ -3,9 +3,30 @@
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/designthebox/barcode-field.svg?style=flat-square)](https://packagist.org/packages/designthebox/barcode-field)
 [![Total Downloads](https://img.shields.io/packagist/dt/designthebox/barcode-field.svg?style=flat-square)](https://packagist.org/packages/designthebox/barcode-field)
 
+## Table of Contents
+- [Overview](#overview)
+- [Screenshot](#screenshot)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Advanced Usage](#advanced-usage)
+- [Features](#features)
+- [Changelog](#changelog)
+- [Contributing](#contributing)
+- [Security Vulnerabilities](#security-vulnerabilities)
+- [Credits](#credits)
+- [License](#license)
+
 ## Overview
 
-The **Filament Barcode Scanner Input** package provides a user-friendly barcode input field for your Filament applications. This component supports dynamic scanning, allowing users to input barcodes seamlessly.
+The **Filament Barcode Scanner Input** package offers a user-friendly barcode input field for your Filament applications. This component supports dynamic scanning, enabling users to input barcodes seamlessly.
+
+Key features include:
+
+- **Modal Popup:** The component opens a modal popup for barcode scanning, providing a dedicated interface for users to scan and input barcodes without cluttering the main form.
+  
+- **Customizable Icon:** Users can customize the input field with their own icons, enhancing the visual appeal and allowing for better integration with existing designs.
+
+With these features, the Filament Barcode Scanner Input package ensures an efficient and aesthetically pleasing user experience for barcode entry in your application.
 
 ## Screenshot
 
@@ -17,6 +38,7 @@ You can install the package via Composer:
 
 ```bash
 composer require designthebox/barcode-field
+
 
 ```
 Publish Assets:
@@ -63,14 +85,5 @@ Please review [our security policy](../../security/policy) on how to report secu
 ## License
 
 The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
-
-
-### Key Enhancements
-1. **Overview Section**: A brief description of what the package does.
-2. **Features Section**: Highlight key features for quick reference.
-3. **Consistency in Naming**: The package name is consistently formatted throughout the document.
-4. **Formatting**: Clear formatting for code blocks and sections enhances readability.
-
-
 
 
