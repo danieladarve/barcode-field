@@ -7,6 +7,10 @@
 
 The **Filament Barcode Scanner Input** package provides a user-friendly barcode input field for your Filament applications. This component supports dynamic scanning, allowing users to input barcodes seamlessly.
 
+## Screenshot
+
+![Input Screenshot](https://raw.githubusercontent.com/yourusername/yourrepository/main/assets/images/Input-Screenshot.png)
+
 ## Installation
 
 You can install the package via Composer:
@@ -14,6 +18,11 @@ You can install the package via Composer:
 ```bash
 composer require designthebox/barcode-field
 
+```
+Publish Assets:
+
+```
+php artisan vendor:publish --tag=barcode-scanner-assets
 ```
 
 ## Usage
@@ -61,5 +70,7 @@ The MIT License (MIT). Please see [License File](LICENSE.md) for more informatio
 2. **Features Section**: Highlight key features for quick reference.
 3. **Consistency in Naming**: The package name is consistently formatted throughout the document.
 4. **Formatting**: Clear formatting for code blocks and sections enhances readability.
+
+
 
 
