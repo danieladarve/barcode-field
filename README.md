@@ -9,7 +9,7 @@ The **Filament Barcode Scanner Input** package provides a user-friendly barcode 
 
 ## Screenshot
 
-![Input Screenshot](https://raw.githubusercontent.com/yourusername/yourrepository/main/assets/images/Input-Screenshot.png)
+![Input Screenshot](https://raw.githubusercontent.com/Design-The-Box/barcode-field/main/assets/images/Input-Screenshot.png)
 
 ## Installation
 
