@@ -15,6 +15,11 @@ You can install the package via Composer:
 composer require designthebox/barcode-field
 
 ```
+Publish Assets:
+
+```
+php artisan vendor:publish --tag=barcode-scanner-assets
+```
 
 ## Usage
 
