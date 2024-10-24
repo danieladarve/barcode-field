@@ -35,5 +35,4 @@ class FilamentBarcodeScannerFieldServiceProvider extends PackageServiceProvider
             return BarcodeInput::make($name); // Use the 'make' method
         });
     }
-
 }
