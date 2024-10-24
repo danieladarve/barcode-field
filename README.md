@@ -1,6 +1,8 @@
 # Filament Barcode Scanner Input
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/designthebox/barcode-field.svg?style=flat-square)](https://packagist.org/packages/designthebox/barcode-field)
+[![GitHub Tests Action Status](https://img.shields.io/github/actions/workflow/status/designthebox/barcode-field/run-tests.yml?branch=main&label=tests&style=flat-square)](https://github.com/designthebox/barcode-field/actions?query=workflow%3Arun-tests+branch%3Amain)
+[![GitHub Code Style Action Status](https://img.shields.io/github/actions/workflow/status/designthebox/barcode-field/fix-php-code-styling.yml?branch=main&label=code%20style&style=flat-square)](https://github.com/designthebox/barcode-field/actions?query=workflow%3A"Fix+PHP+code+styling"+branch%3Amain)
 [![Total Downloads](https://img.shields.io/packagist/dt/designthebox/barcode-field.svg?style=flat-square)](https://packagist.org/packages/designthebox/barcode-field)
 
 ## Table of Contents
