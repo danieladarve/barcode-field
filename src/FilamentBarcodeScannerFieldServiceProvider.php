@@ -31,8 +31,9 @@ class FilamentBarcodeScannerFieldServiceProvider extends PackageServiceProvider
     public function register(): void
     {
         // Register the BarcodeInput component as a macro on the Field class
-        Field::macro('barcodeInput', function () {
-            return new BarcodeInput; // Create an instance of BarcodeInput
+        Field::macro('barcodeInput', function ($name) {
+            return BarcodeInput::make($name); // Use the 'make' method
         });
     }
+
 }
