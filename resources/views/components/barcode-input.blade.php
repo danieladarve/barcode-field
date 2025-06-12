@@ -55,7 +55,7 @@
         <x-filament::input.wrapper
             :x-data="$xData"
             onclick="openScannerModal()"
-            class="relative">
+            class="relative cursor-pointer">
             <x-filament::input
                 :attributes="
                 \Filament\Support\prepare_inherited_attributes($getExtraInputAttributeBag())
