@@ -84,13 +84,14 @@
                         'x-mask' . ($mask instanceof \Filament\Support\RawJs ? ':dynamic' : '') => filled($mask) ? $mask : null,
                     ], escape: false)
                     ->class([
+                        'pointer-events-none pl-8',
                         '[&::-ms-reveal]:hidden' => $isPasswordRevealable,
                     ])
                 "
             />
 
             <!-- Trigger Button for Filament Modal -->
-            <button type="button" onclick="openScannerModal()" class="absolute inset-y-0 right-0 flex items-center pr-3 focus:outline-none" aria-label="Scan Barcode">
+            <button type="button" onclick="openScannerModal()" class="absolute pl-2 inset-y-0 right-0 flex items-center pr-3 focus:outline-none" aria-label="Scan Barcode">
                 @if($getExtraAttributes()['icon'] ?? null)
                     <span class="text-gray-400 dark:text-gray-200">
                         <x-dynamic-component :component="$getExtraAttributes()['icon']" class="w-5 h-5" />
